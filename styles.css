@@ -1,0 +1,51 @@
+:root {
+    --primary-color: #6a0dad;
+    --primary-dark: #4b0082;
+    --light-color: #f8fafc;
+    --text-color: #1e293b;
+    --border-color: #e2e8f0;
+    --success-color: #00a650;
+    --info-color: #3483fa;
+    --warning-color: #ffc107;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: var(--text-color);
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    color: var(--primary-dark);
+}
+
+/* [Todos los demás estilos organizados] */
+
+.admin-float {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: var(--primary-color);
+    z-index: 1000;
+    background: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
